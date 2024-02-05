@@ -1,0 +1,42 @@
+// Colors
+//////////////////////////
+$darkblue: #172339;
+$grayishblue: #49566d;
+$gray: #f3ede7;
+$offwhite: #faf8f6;
+$purple: #a060ff;
+$pink: #cb30e3;
+$orange: #ffa84e;
+
+// Fonts
+//////////////////////////
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+
+// Headings
+
+$fs-boldxl: 4.5rem; // 72px
+$fs-boldlg: 3rem; // 48px
+$fs-boldmed: 1.125rem; // 18px
+$fs-boldsm: 1rem; // 16px
+$fs-quote: 1.25rem;// 20px
+$fs-body: 1.125rem;// 18px
+
+$fw-body: 400;
+$fw-headings: 700;
+
+// Media Queries
+////////////////////////// 
+
+
+// UI Kit
+.button {
+    border-radius: 6px;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    line-height: 32px;
+    // padding: 13px 25px;
+}
+
+a {
+    text-decoration: none;
+}

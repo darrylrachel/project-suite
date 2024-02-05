@@ -1,0 +1,58 @@
+@import "reset";
+@import "globals";
+
+body {
+  font-family: 'Epilogue', sans-serif;
+  font-size: $fs-body;
+  font-weight: $fw-body;
+}
+.container {
+  // border: 1px solid magenta;
+  margin: 0 auto;
+  max-width: 85%;
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3.125rem; // 50px
+
+    img.logo {
+      width: 4.875rem; // 78px
+    }
+
+    .header__cta {
+      border: 1px solid $darkblue;
+      border-radius: 6px;
+      color: $darkblue;
+      cursor: pointer;
+      font-size: 0.75rem;
+      letter-spacing: -0.18px;
+      line-height: 32px;
+      padding: 6px 20px;
+
+      &:hover {
+        color: #fff;
+        background-color: $darkblue;
+        transition: all 300ms ease-in-out;
+      }
+
+      a.cta-button.button {
+        border-radius: 6px;
+        color: $darkblue;
+        font-size: 0.75rem;
+
+        &:hover {
+          color: #fff;
+          background-color: $darkblue;
+          transition: all 300ms ease-in-out;
+        }
+      }
+    }
+  }
+  
+  
+}
+
+

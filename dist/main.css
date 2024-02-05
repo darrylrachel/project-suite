@@ -1,0 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.button {
+  border-radius: 6px;
+  font-size: 18px;
+  letter-spacing: -0.18px;
+  line-height: 32px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 85%;
+}
+.container header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3.125rem;
+}
+.container header img.logo {
+  width: 4.875rem;
+}
+.container header .header__cta {
+  border: 1px solid #172339;
+  border-radius: 6px;
+  color: #172339;
+  cursor: pointer;
+  font-size: 0.75rem;
+  letter-spacing: -0.18px;
+  line-height: 32px;
+  padding: 6px 20px;
+}
+.container header .header__cta:hover {
+  color: #fff;
+  background-color: #172339;
+  transition: all 300ms ease-in-out;
+}
+.container header .header__cta a.cta-button.button {
+  border-radius: 6px;
+  color: #172339;
+  font-size: 0.75rem;
+}
+.container header .header__cta a.cta-button.button:hover {
+  color: #fff;
+  background-color: #172339;
+  transition: all 300ms ease-in-out;
+}/*# sourceMappingURL=main.css.map */
